@@ -22,6 +22,11 @@ a {
 	font-size: 18px;	
 	margin-left: 20px;
 	margin-right: 20px;
+	border-bottom: 2px solid transparent;
+}
+
+a:hover {
+	border-color: white;
 }
 
 /*instructions subtitle*/
@@ -88,4 +93,9 @@ footer {
   clear: both;
   height: 0;
   font-size: 0;
+}
+
+.name {
+	color: #F15B31;
+	font-weight: 700;
 }
